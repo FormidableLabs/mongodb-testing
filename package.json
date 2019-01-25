@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-blog-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0",
+    "mongodb": "^3.1.12",
+    "mongodb-memory-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest-cli": "^23.6.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    }
+  }
+}
